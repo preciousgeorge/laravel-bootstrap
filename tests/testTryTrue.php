@@ -7,5 +7,10 @@ class TryTrue extends PHPUnit_Framework_TestCase{
 
                  $this->assertEquals(true, true);
   }
+  
+  public function testForDigit(){
+    
+    $this->assertEquals(1, 1);
+  }
 
 }
