@@ -3,7 +3,7 @@
 
 class TryTrue {
   
-  public function assertTrue(){
+  public function trueAssertion(){
 
                  $this->assertEquals(true, true);
   }
