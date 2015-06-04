@@ -1,7 +1,7 @@
 <?php
 //test if true is true ;)
 
-class TryTrue {
+class TryTrue extends PHPUnit_Framework_TestCase{
   
   public function trueAssertion(){
 
