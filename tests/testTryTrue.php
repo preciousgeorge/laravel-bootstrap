@@ -3,7 +3,7 @@
 
 class TryTrue extends PHPUnit_Framework_TestCase{
   
-  public function trueAssertion(){
+  public function testTrueAssertion(){
 
                  $this->assertEquals(true, true);
   }
